@@ -15,3 +15,11 @@ h1 {
     font-style: arial;
     display: inline;
 }
+
+.container {
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
