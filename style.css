@@ -1,0 +1,17 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+header {
+    height:100px;
+    background-color:white;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: arial;
+    display: inline;
+}
