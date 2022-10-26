@@ -15,6 +15,25 @@ body {
  margin: 0 auto;
 }
 
+.bg-purple{
+    background-color: rgb(128, 0, 122);
+}
+.bg-green{
+    background-color: rgb(30, 128, 0);
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-blue{
+    background-color: rgb(0, 132, 255);
+}
+
 header {
     height: 70px;
     background-color: white;
@@ -35,3 +54,82 @@ h1 {
     vertical-align: middle;
 }
 
+h3{  
+    margin-top: 30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card-header{
+    padding: 10px 30px;
+    border-bottom: 2px solid gray;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+.btn.btn-primary{
+    color:white;
+    background-color: rgb(0, 102, 255);
+    border-color: rgb(0, 102, 255);
+}
+
+.btn.btn-outline{
+    color:gray;
+    background-color: white;
+    border-color: gray;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.task-item{
+    height: 40px;
+    line-height: 40px;
+}
+
+.task-status{
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    color: green;
+}
+
+.task-status.done{
+    color: green;
+}
+
+.task-status.undone{
+    color: red;
+    border-color: red;
+}
+
+.task-text{
+    vertical-align: middle;
+}
+
+.badge{
+    color:white;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    line-height: 15px;
+    vertical-align: middle;
+}
